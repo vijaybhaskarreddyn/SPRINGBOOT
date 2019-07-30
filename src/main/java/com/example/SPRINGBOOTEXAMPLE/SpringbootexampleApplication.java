@@ -9,6 +9,7 @@ public class SpringbootexampleApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootexampleApplication.class, args);
                 System.out.println("com.example.SPRINGBOOTEXAMPLE.SpringbootexampleApplication.main()");
+                System.out.println(""+ ClassLoader.getSystemClassLoader().getParent().getClass().getName());
 	}
 
 }
